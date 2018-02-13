@@ -1,0 +1,30 @@
+3518 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in oodles.configuration.MysqlDataSource required a bean of type 'oodles.configuration.EnvConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'oodles.configuration.EnvConfiguration' in your configuration.
+
+3512 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in oodles.configuration.MysqlDataSource required a bean of type 'oodles.configuration.EnvConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'oodles.configuration.EnvConfiguration' in your configuration.
+

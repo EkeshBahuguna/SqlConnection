@@ -1,0 +1,476 @@
+863  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 15155 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+868  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+869  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3142 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2183 ms
+5871 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@110af7cc: startup date [Fri Feb 09 15:11:59 IST 2018]; root of context hierarchy
+5996 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5998 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5999 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+6001 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6003 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6004 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6008 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6009 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6051 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6052 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6107 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6837 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.51 seconds (JVM running for 10.645)
+799  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 15246 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+808  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+808  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3049 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2148 ms
+5841 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2813e0d4: startup date [Fri Feb 09 15:12:56 IST 2018]; root of context hierarchy
+5963 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+5967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5968 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5968 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5969 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5970 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5976 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6018 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6018 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6072 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6762 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.469 seconds (JVM running for 10.602)
+736  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 15797 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+740  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+741  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3159 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2336 ms
+5957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10f883b9: startup date [Fri Feb 09 15:24:01 IST 2018]; root of context hierarchy
+6081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6082 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6083 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+6085 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6086 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6086 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6087 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6087 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6098 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6099 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6143 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6144 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6201 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6984 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.708 seconds (JVM running for 10.604)
+659  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 17534 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+665  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+665  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3023 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2274 ms
+5921 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47a4c0af: startup date [Fri Feb 09 16:04:38 IST 2018]; root of context hierarchy
+6034 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6035 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6036 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6038 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6039 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6040 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6040 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6045 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6084 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6085 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6133 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6450 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.317 seconds (JVM running for 11.614)
+79367 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+79390 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+829  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 17819 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+834  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+834  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3037 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2116 ms
+5667 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@110af7cc: startup date [Fri Feb 09 16:08:36 IST 2018]; root of context hierarchy
+5792 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5793 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5794 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5795 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5796 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5797 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5797 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5798 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5801 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5802 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5842 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5843 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5897 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6599 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.282 seconds (JVM running for 10.494)
+14659 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+14682 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+14801 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - studentr data
+720  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 17949 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+732  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+732  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+2984 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2156 ms
+5978 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2813e0d4: startup date [Fri Feb 09 16:09:40 IST 2018]; root of context hierarchy
+6107 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6109 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6110 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6112 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6112 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6113 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6114 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6114 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6119 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6120 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6162 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6162 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6217 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6871 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.603 seconds (JVM running for 10.636)
+11866 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11885 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+12042 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - studentr data
+12051 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - set data
+825  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18077 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+830  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+830  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3047 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2127 ms
+6021 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2813e0d4: startup date [Fri Feb 09 16:10:45 IST 2018]; root of context hierarchy
+6142 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6143 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6144 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6146 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6146 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6147 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6147 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6148 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6152 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6153 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6194 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6195 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6257 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6922 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.601 seconds (JVM running for 10.584)
+12394 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12414 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+12555 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - studentr data
+850  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18188 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+855  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+856  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3178 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2240 ms
+5835 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3602a13c: startup date [Fri Feb 09 16:11:41 IST 2018]; root of context hierarchy
+5951 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5953 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5958 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5962 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5963 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6005 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6005 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6058 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6750 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.447 seconds (JVM running for 10.556)
+11113 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11132 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+11240 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - studentr data
+767  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18341 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+773  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+773  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3121 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2257 ms
+6055 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@195c717f: startup date [Fri Feb 09 16:13:19 IST 2018]; root of context hierarchy
+6171 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6173 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6173 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6175 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6176 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6177 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6178 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6182 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6183 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6224 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6224 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6270 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6883 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.608 seconds (JVM running for 10.516)
+16297 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16321 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+16434 [http-nio-1118-exec-1] INFO  o.controller.ActivityController - studentr data
+752  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18524 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+758  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+759  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3139 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2301 ms
+5632 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10f883b9: startup date [Fri Feb 09 16:14:52 IST 2018]; root of context hierarchy
+5757 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5758 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5759 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5761 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5762 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5762 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5763 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5763 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5768 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5769 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5810 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5810 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5862 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6563 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.286 seconds (JVM running for 10.212)
+10940 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+10961 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+11127 [http-nio-1118-exec-1] INFO  o.controller.ActivityController - studentr datarahul
+746  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18653 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+751  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+751  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3065 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2242 ms
+5811 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@466de234: startup date [Fri Feb 09 16:15:48 IST 2018]; root of context hierarchy
+5911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5912 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5913 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5916 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5917 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5917 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5922 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5922 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5960 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5961 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6009 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6754 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.48 seconds (JVM running for 10.578)
+11068 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+11091 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+773  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18779 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+779  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+779  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3206 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2340 ms
+6199 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@110af7cc: startup date [Fri Feb 09 16:17:02 IST 2018]; root of context hierarchy
+6323 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6325 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6325 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6327 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6328 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6329 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6329 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6330 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6334 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6335 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6377 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6378 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6432 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7087 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.81 seconds (JVM running for 10.773)
+16461 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16479 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+897  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 18927 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+902  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+902  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3222 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2231 ms
+5831 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10f883b9: startup date [Fri Feb 09 16:18:51 IST 2018]; root of context hierarchy
+5954 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5958 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5959 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5961 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6009 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6010 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6064 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6705 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.319 seconds (JVM running for 10.566)
+13959 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+13982 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+750  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 19070 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+755  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+756  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3007 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2155 ms
+5956 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@110af7cc: startup date [Fri Feb 09 16:20:33 IST 2018]; root of context hierarchy
+6096 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6097 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6098 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6100 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6101 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6102 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6102 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6103 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6107 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6108 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6151 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6152 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6206 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6852 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.567 seconds (JVM running for 10.658)
+12289 [http-nio-1118-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+12313 [http-nio-1118-exec-3] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+769  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 19310 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+774  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+775  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3089 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2244 ms
+5968 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47881c3c: startup date [Fri Feb 09 16:23:36 IST 2018]; root of context hierarchy
+6074 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6077 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6079 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6080 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6082 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6083 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6094 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6138 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6138 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6192 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6923 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.619 seconds (JVM running for 10.843)
+15119 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+15155 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+823  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 19972 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+834  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+834  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3138 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2215 ms
+5736 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@10f883b9: startup date [Fri Feb 09 16:36:34 IST 2018]; root of context hierarchy
+5854 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5855 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+5857 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5858 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5859 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5860 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5865 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5866 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5915 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5916 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5968 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6577 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.282 seconds (JVM running for 10.328)
+15888 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+15915 [http-nio-1118-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+16029 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - set datarahul
+16029 [http-nio-1118-exec-2] INFO  o.controller.ActivityController - set data 11
+1015 [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 20074 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+1022 [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+1023 [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3545 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2437 ms
+6331 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@195c717f: startup date [Fri Feb 09 16:37:33 IST 2018]; root of context hierarchy
+6455 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6457 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6458 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.StudentBean(oodles.controller.StudentBean)
+6460 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6461 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6462 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6463 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6464 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6470 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6471 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6534 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6534 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6596 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+7310 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.988 seconds (JVM running for 11.505)
+19335 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+19353 [http-nio-1118-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+19499 [http-nio-1118-exec-1] INFO  o.controller.ActivityController - set datarahul
+19500 [http-nio-1118-exec-1] INFO  o.controller.ActivityController - set data 11
+749  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 21644 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+754  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+754  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: dev
+3123 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2288 ms
+3518 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in oodles.configuration.MysqlDataSource required a bean of type 'oodles.configuration.EnvConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'oodles.configuration.EnvConfiguration' in your configuration.
+
+876  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 21697 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+880  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+881  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3161 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2200 ms
+5875 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2813e0d4: startup date [Fri Feb 09 17:37:07 IST 2018]; root of context hierarchy
+5977 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5979 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+5981 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5982 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5983 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5984 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6029 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6029 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6078 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6776 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.476 seconds (JVM running for 10.547)
+799  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 21848 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+805  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+805  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3024 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2138 ms
+5957 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@27c6b94: startup date [Fri Feb 09 17:38:53 IST 2018]; root of context hierarchy
+6081 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6083 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+6084 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+6086 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+6086 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+6087 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+6087 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+6088 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+6092 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+6093 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6135 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6135 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6191 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6870 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.562 seconds (JVM running for 10.784)
+719  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 21930 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+724  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+725  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: dev
+3157 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2346 ms
+3512 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field envConfig in oodles.configuration.MysqlDataSource required a bean of type 'oodles.configuration.EnvConfiguration' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'oodles.configuration.EnvConfiguration' in your configuration.
+
+799  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 22066 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+803  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+804  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3005 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2118 ms
+5726 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3602a13c: startup date [Fri Feb 09 17:41:55 IST 2018]; root of context hierarchy
+5849 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5851 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5852 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+5854 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5855 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5856 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5857 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5858 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5864 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5866 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+5907 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5907 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+5961 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6698 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.421 seconds (JVM running for 10.391)
+890  [main] INFO  oodles.SqlConnectionApplication - Starting SqlConnectionApplication on ekesh with PID 22661 (/home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection/target/classes started by ekesh in /home/ekesh/Documents/workspace-sts-3.9.2.RELEASE/SqlConnection)
+895  [main] DEBUG oodles.SqlConnectionApplication - Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+896  [main] INFO  oodles.SqlConnectionApplication - The following profiles are active: stage
+3258 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2272 ms
+5841 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@110af7cc: startup date [Fri Feb 09 18:06:12 IST 2018]; root of context hierarchy
+5960 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/assign_activities],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.assignActivities(oodles.dto.RoleActivityDTO)
+5962 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5963 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_activity],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.ActivityController.addRole(java.lang.String)
+5965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/update_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.changeStatus(java.util.Map<java.lang.String, java.lang.String>)
+5965 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/name],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoleByRoleName(java.lang.String)
+5966 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/role/id],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRolebyRoleId(java.lang.String)
+5967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/roles],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.getRoles()
+5967 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v1/add_role],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> oodles.controller.RoleController.addRole(java.lang.String)
+5971 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+5972 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+6014 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6015 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6068 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+6750 [main] INFO  oodles.SqlConnectionApplication - Started SqlConnectionApplication in 6.39 seconds (JVM running for 10.388)
